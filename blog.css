@@ -1,0 +1,15 @@
+h1, p, a, div {
+  color: white;
+  
+}
+:root {
+  --accent:red;
+  --bg-image:url("https://file.garden/ZWlUCY4S7Xz2vypS/archived%20backgrounds/colours/black/gryd014.jpg");
+}
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-image:var(--bg-image);
+}

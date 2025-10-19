@@ -1,0 +1,15 @@
+h1, p, a, div {
+  color: white;
+  
+}
+:root {
+  --accent:red;
+  --bg-image:url("https://planetdaikatana.net/images/bgclouds9.jpg");
+}
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-image:var(--bg-image);
+}
